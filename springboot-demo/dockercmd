@@ -1,0 +1,10 @@
+./gradlew clean bootJar
+
+# docker build -t taeyoungk/springboot-demo:latest .
+
+# amd64로 정확히 빌드 후 푸시
+docker buildx build --platform linux/amd64 -t taeyoungk/springboot-demo:latest --push .
+
+# kind load docker-image msa-springboot:latest --name devops-lab
+
+# kubectl rollout restart deployment springboot -n msa-lab

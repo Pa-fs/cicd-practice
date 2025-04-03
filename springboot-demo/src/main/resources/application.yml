@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springboot-demo
+
+  kafka:
+    bootstrap-servers: kafka.msa-lab.svc.cluster.local:9092
+    consumer:
+      group-id: msa-consumer
+      auto-offset-reset: earliest
