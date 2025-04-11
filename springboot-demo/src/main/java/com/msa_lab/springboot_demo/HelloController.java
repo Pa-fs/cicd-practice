@@ -13,8 +13,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String helloWorld() {
-//        logger.info("Hello world on kubernetes!!!");
-        System.out.println("Hello world on kubernetes!!!");
+        logger.info("Hello world on kubernetes!!!");
 
         return "🔑 Hello World on kubernetes!!!";
     }
