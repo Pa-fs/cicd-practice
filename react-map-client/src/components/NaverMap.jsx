@@ -8,7 +8,7 @@ const NaverMap = () => {
     // 네이버 지도 API 스크립트 삽입
     const script = document.createElement("script");
     script.src =
-      "https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=<CLIENT_KEY>";
+      "https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=ilsjkbuxu2";
     script.async = true;
     script.onload = () => {
       // 지도 인스턴스 생성
