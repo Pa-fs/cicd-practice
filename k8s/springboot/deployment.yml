@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: cicd-devops-project
-        image: taeyoungk/springboot-demo:52
+        image: taeyoungk/springboot-demo:53
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
