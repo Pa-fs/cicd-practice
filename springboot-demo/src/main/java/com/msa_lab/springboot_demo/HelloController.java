@@ -15,6 +15,6 @@ public class HelloController {
     public String helloWorld() {
         logger.info("Hello world on kubernetes!");
 
-        return "🔑 Hello World on kubernetes with jenkins and argocd!!!!";
+        return "🔑 Hello World on kubernetes with jenkins and argocd!!!";
     }
 }
